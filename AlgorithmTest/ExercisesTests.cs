@@ -9,6 +9,14 @@ namespace AlgorithmTest
         {
             int result = Excercises.Add(2, 3);
             Assert.Equal(5, result);
+
+
+            result = Excercises.Add(89, 1);
+            Assert.Equal(90, result);
+
+
+            result = Excercises.Add(1, 3);
+            Assert.Equal(4, result);
         }
 
         [Fact]
